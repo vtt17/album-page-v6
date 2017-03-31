@@ -1,0 +1,61 @@
+body {  
+	font: 15px/1.5 Arial, Helvetica, sans-serif;   			/* font-size, line-height, font-family */
+	padding: 0;
+	margin:0;
+	background: #f4f4f4;
+}
+.header {
+	background-color: #008080;
+	padding: 20px;
+	color: white;
+	font-style: italic;
+}
+.header h1 {
+	text-shadow: 2px 2px 0 #000080, -2px 2px 0 #000080;
+}
+#weblink {
+	color: #bb8fce;
+}
+#member {
+	padding: 40px;
+}
+#member h4 {
+	color: #008080;
+}
+li {
+	font-style: italic;
+}
+.trackList {
+	margin-left: 40px;
+	margin-right: 50px;
+	padding-bottom: 30px;
+}
+.table tbody tr:nth-child(even){
+	background-color: #FFF0F5;
+}
+.table h3 {
+	color: #008080;
+	text-align: center;
+}
+thead {
+	background-color: #008080;
+}
+.table tr th {
+	text-align: center;
+}
+tbody{
+	text-align: center;
+	font-style: italic;
+}
+.table, th, td {
+	border: 1px black solid;
+}
+.header .row .col a #weblink {
+	max-width: 270px;
+	margin: auto;
+	padding-bottom: 10px;
+}
+.header .row .col a #weblink:hover {
+	background-color: #0000CD;
+	text-decoration: underline;
+}
