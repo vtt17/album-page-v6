@@ -50,12 +50,12 @@ tbody{
 .table, th, td {
 	border: 1px black solid;
 }
-.header .row .col a #weblink {
+.header a #weblink {
 	max-width: 270px;
 	margin: auto;
 	padding-bottom: 10px;
 }
-.header .row .col a #weblink:hover {
+.header a #weblink:hover {
 	background-color: #0000CD;
 	text-decoration: underline;
 }
